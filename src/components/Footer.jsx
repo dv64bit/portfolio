@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <div
-      id="Contact"
+      id="Contact me"
       data-scroll
       data-scroll-section
       data-scroll-speed="0.003"
