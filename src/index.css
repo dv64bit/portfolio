@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Neue_Montreal";
+  src: url("/resources/fonts/NeueMontreal-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Founders_Grotesk_X-Cond_Bold";
+  src: url("/resources/fonts/Founders_Grotesk");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "my_font", sans-serif;
+}
