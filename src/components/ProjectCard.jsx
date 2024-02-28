@@ -28,7 +28,7 @@ const ProjectCard = () => {
           <motion.div
             initial={{ y: "100%" }}
             animate={animationControls[index]}
-            className="absolute uppercase translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none text-8xl font-['Founders_Grotesk_X']"
+            className="absolute uppercase translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none text-8xl tracking-tighter font-Founders_Grotesk_X_light"
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={() => handleHoverEnd(index)}
           >
@@ -46,7 +46,7 @@ const ProjectCard = () => {
           <motion.div
             onHoverStart={() => handleHover(index)}
             onHoverEnd={() => handleHoverEnd(index)}
-            className="card w-full h-[75vh] rounded-md bg-red-50 overflow-hidden font-['Founders_Grotesk_X']"
+            className="card w-full h-[75vh] tracking-tighter rounded-md bg-red-50 overflow-hidden font-['Founders_Grotesk_X']"
           >
             <img
               src={project.imgUrl}

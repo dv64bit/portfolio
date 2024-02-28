@@ -28,7 +28,7 @@ const LandingPage = () => {
                     />
                   </motion.div>
                 )}
-                <h1 className="pt-[2vw] -mb-[1vw] uppercase text-[9vw] tracking-3 leading-[.75] font-['Founders_Grotesk_X-Cond_Bold']">
+                <h1 className="pt-[2vw] -mb-[1vw] uppercase text-[9vw] tracking-3 leading-[.75] font-Founders_Grotesk_X">
                   {values}
                 </h1>
               </div>

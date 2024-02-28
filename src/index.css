@@ -3,13 +3,25 @@
 @tailwind utilities;
 @font-face {
   font-family: "Neue_Montreal";
-  src: url("/resources/fonts/NeueMontreal-Regular.ttf");
+  src: local("NeueMontreal-Regular"),
+    url("./asserts/fonts/NeueMontreal-Regular.ttf") format(truetype);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Founders_Grotesk_X-Cond_Bold";
-  src: url("/resources/fonts/Founders_Grotesk");
+  src: local("FoundersGroteskXCond-Bold"),
+    url("./assets/fonts/Founders Grotesk/FoundersGroteskXCond-Bold.otf")
+      format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Founders_Grotesk_X";
+  src: local("FoundersGrotesk-Regular"),
+    url("./assets/fonts/Founders Grotesk/FoundersGrotesk-Regular.otf")
+      format(opentype);
   font-weight: normal;
   font-style: normal;
 }

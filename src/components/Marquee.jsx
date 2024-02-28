@@ -14,7 +14,7 @@ const Marquee = () => {
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
-          className="text-[25vw] pr-24 uppercase tracking-wide leading-none pt-4 -mb-[7vw] font-['Founders_Grotesk_X-Cond_Bold']"
+          className="text-[25vw] pr-24 uppercase tracking-wide leading-none pt-4 -mb-[7vw] font-Founders_Grotesk_X"
         >
           I'm Darshan
         </motion.h1>
@@ -22,7 +22,7 @@ const Marquee = () => {
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
-          className="text-[25vw] pr-24 uppercase tracking-wide leading-none pt-4 -mb-[7vw]  font-['Founders_Grotesk_X-Cond_Bold']"
+          className="text-[25vw] pr-24 uppercase tracking-wide leading-none pt-4 -mb-[7vw]  font-Founders_Grotesk_X"
         >
           I'm Darshan
         </motion.h1>

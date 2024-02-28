@@ -12,10 +12,10 @@ const Footer = () => {
     >
       <div className="w-1/2 h-full flex flex-col justify-between">
         <div className="flex flex-col gap-1 ">
-          <h1 className="text-[9vw] text-stone-800 font-['Founders_Grotesk_X-Cond_Bold'] uppercase -mt-6 -mb-24">
+          <h1 className="text-[9vw] text-stone-800 font-Founders_Grotesk_X uppercase -mt-6 -mb-24">
             eye-
           </h1>
-          <h1 className="text-[9vw] text-stone-800 font-['Founders_Grotesk_X-Cond_Bold'] uppercase">
+          <h1 className="text-[9vw] text-stone-800 font-Founders_Grotesk_X uppercase">
             Opening
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-1/2 h-full">
-        <div className="text-[9vw] text-stone-800 font-['Founders_Grotesk_X-Cond_Bold'] uppercase -mt-6">
+        <div className="text-[9vw] text-stone-800 font-Founders_Grotesk_X uppercase -mt-6">
           Websites
         </div>
         <div className="text-stone-950 text-2xl flex flex-col gap-12 justify-end text-left font-['Neue_Montreal'] ">

@@ -15,13 +15,14 @@ const About = () => {
           <div className="w-[45%]">What you can expect:</div>
           <div className="w-[30%] px-2 flex flex-col gap-6">
             <div className="w-[90%]">
-              We create tailored presentations to help you persuade your
-              colleagues, clients, or investors. Whether it's live or digital,
-              delivered for one or a hundred people.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Similique, recusandae? Voluptates tenetur fugiat voluptatum amet
+              ipsa optio, dolores expedita dolore nesciunt, consectetur tempora,
+              beatae iusto.
             </div>
             <div className="w-[90%]">
-              We believe the mix of strategy and design (with a bit of coffee)
-              is what makes your message clear, convincing, and captivating.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+              animi.
             </div>
           </div>
           <div className="w-[25%] flex flex-col gap-4 justify-end px-[8vw] text-left">
