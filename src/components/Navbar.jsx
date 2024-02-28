@@ -34,7 +34,7 @@ const Navbar = () => {
             <a
               href={`#${listItems}`}
               key={index}
-              className={`text-lg font-['Neue_Montreal'] ${
+              className={`text-lg font-Neue_Montreal ${
                 index === 4 && "ml-60"
               } ${
                 visible

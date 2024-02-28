@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="text-[9vw] text-stone-800 font-Founders_Grotesk_X uppercase -mt-6">
           Websites
         </div>
-        <div className="text-stone-950 text-2xl flex flex-col gap-12 justify-end text-left font-['Neue_Montreal'] ">
+        <div className="text-stone-950 text-2xl flex flex-col gap-12 justify-end text-left font-Neue_Montreal ">
           <div className="flex flex-col gap-5">
             <div>Socials:</div>
             <div>

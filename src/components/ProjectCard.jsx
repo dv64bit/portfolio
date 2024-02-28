@@ -21,7 +21,7 @@ const ProjectCard = () => {
           key={index}
           className="w-1/2 p-2 relative flex flex-col items-start"
         >
-          <h1 className="flex gap-3 uppercase items-center py-5 text-base font-['Neue_Montreal']">
+          <h1 className="flex gap-3 uppercase items-center py-5 text-base font-Neue_Montreal">
             <div className="w-3 h-3 rounded-full bg-white"></div>
             {project.projectName}
           </h1>

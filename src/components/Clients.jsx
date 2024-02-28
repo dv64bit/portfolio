@@ -4,20 +4,20 @@ const Clients = () => {
   return (
     <div id="My work" className="w-full py-20">
       <div className="w-full px-14 border-b-[1px] border-zinc-700 pb-16">
-        <h1 className="text-6xl font-['Neue_Montreal'] tracking-tight">
+        <h1 className="text-6xl font-Neue_Montreal tracking-tight">
           Clients’ Feedback
         </h1>
       </div>
       <div className="flex max-md:flex-col mt-9">
         <div className="basis-1/3">
-          <h3 className="pl-14 font-['Neue_Montreal']  text-lg">
+          <h3 className="pl-14 font-Neue_Montreal  text-lg">
             AntStudio | CoolAnt
           </h3>
         </div>
         <div className="pl-14 basis-1/3">
           <div className="flex flex-col gap-16">
-            <h3 className=" font-['Neue_Montreal']  text-lg">Services:</h3>
-            <div className=" font-['Neue_Montreal']  text-lg">
+            <h3 className=" font-Neue_Montreal  text-lg">Services:</h3>
+            <div className=" font-Neue_Montreal  text-lg">
               <div className="w-fit my-3 px-3 py-1 uppercase border rounded-full text-sm tracking-widest">
                 Frontend Design
               </div>
@@ -30,7 +30,7 @@ const Clients = () => {
         {/* Main Clients */}
         <div className="pl-14 basis-1/2">
           <div className="flex flex-col gap-16">
-            <div className=" font-['Neue_Montreal'] text-lg">
+            <div className=" font-Neue_Montreal text-lg">
               Pranjal Maheshwari
             </div>
             <div className="flex flex-col gap-4 pb-16">
@@ -41,7 +41,7 @@ const Clients = () => {
                   alt=""
                 />
               </div>
-              <div className="w-[80%] font-['Neue_Montreal'] text-lg">
+              <div className="w-[80%] font-Neue_Montreal text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                 maiores pariatur doloribus corporis suscipit architecto
                 reiciendis, molestias perspiciatis sapiente in, dolorem
@@ -53,45 +53,45 @@ const Clients = () => {
             </div>
           </div>
         </div>
-        <div className="pl-14 basis-1/6 font-['Neue_Montreal'] text-lg uppercase">
+        <div className="pl-14 basis-1/6 font-Neue_Montreal text-lg uppercase">
           Read
         </div>
       </div>
 
       {/* Extra Clients */}
       <div className="flex border-t-[1px] py-4 border-zinc-700">
-        <div className="basis-1/3 pl-12 font-['Neue_Montreal'] text-lg">
+        <div className="basis-1/3 pl-12 font-Neue_Montreal text-lg">
           Lorem, ipsum.
         </div>
-        <div className="basis-1/3 pl-12 font-['Neue_Montreal'] text-lg"></div>
-        <div className="basis-1/2 pl-12 font-['Neue_Montreal'] text-lg">
+        <div className="basis-1/3 pl-12 font-Neue_Montreal text-lg"></div>
+        <div className="basis-1/2 pl-12 font-Neue_Montreal text-lg">
           Keith Holland
         </div>
-        <div className="basis-1/6 pl-12 font-['Neue_Montreal'] text-lg uppercase">
+        <div className="basis-1/6 pl-12 font-Neue_Montreal text-lg uppercase">
           Read
         </div>
       </div>
       <div className="flex border-t-[1px] py-4 border-zinc-700">
-        <div className="basis-1/3 pl-12 font-['Neue_Montreal'] text-lg">
+        <div className="basis-1/3 pl-12 font-Neue_Montreal text-lg">
           Lorem, ipsum.
         </div>
-        <div className="basis-1/3 pl-12 font-['Neue_Montreal'] text-lg"></div>
-        <div className="basis-1/2 pl-12 font-['Neue_Montreal'] text-lg">
+        <div className="basis-1/3 pl-12 font-Neue_Montreal text-lg"></div>
+        <div className="basis-1/2 pl-12 font-Neue_Montreal text-lg">
           Caleb Jordan
         </div>
-        <div className="basis-1/6 pl-12 font-['Neue_Montreal'] text-lg uppercase">
+        <div className="basis-1/6 pl-12 font-Neue_Montreal text-lg uppercase">
           Read
         </div>
       </div>
       <div className="flex border-y-[1px] py-4 border-zinc-700">
-        <div className="basis-1/3 pl-12 font-['Neue_Montreal'] text-lg">
+        <div className="basis-1/3 pl-12 font-Neue_Montreal text-lg">
           Lorem, ipsum.
         </div>
-        <div className="basis-1/3 pl-12 font-['Neue_Montreal'] text-lg"></div>
-        <div className="basis-1/2 pl-12 font-['Neue_Montreal'] text-lg">
+        <div className="basis-1/3 pl-12 font-Neue_Montreal text-lg"></div>
+        <div className="basis-1/2 pl-12 font-Neue_Montreal text-lg">
           Brent Barton
         </div>
-        <div className="basis-1/6 pl-12 font-['Neue_Montreal'] text-lg uppercase">
+        <div className="basis-1/6 pl-12 font-Neue_Montreal text-lg uppercase">
           Read
         </div>
       </div>

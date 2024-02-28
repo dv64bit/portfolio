@@ -15,7 +15,7 @@ const CompanyCard = () => {
           alt=""
         />
         <div className="absolute bottom-0 left-0 px-8 py-8">
-          <h1 className="px-3 py-1 uppercase border border-[#dbc49f] text-[#dbc49f] rounded-full text-sm tracking-widest font-['Neue_Montreal']">
+          <h1 className="px-3 py-1 uppercase border border-[#dbc49f] text-[#dbc49f] rounded-full text-sm tracking-widest font-Neue_Montreal">
             Dv64bit
           </h1>
         </div>
@@ -28,7 +28,7 @@ const CompanyCard = () => {
             alt=""
           />
           <div className="absolute bottom-0 left-0 px-8 py-8">
-            <h1 className="px-3 py-1 uppercase border border-[#001317] text-[#001317] rounded-full text-sm tracking-widest font-['Neue_Montreal']">
+            <h1 className="px-3 py-1 uppercase border border-[#001317] text-[#001317] rounded-full text-sm tracking-widest font-Neue_Montreal">
               Studentflow
             </h1>
           </div>
@@ -40,7 +40,7 @@ const CompanyCard = () => {
             alt=""
           />
           <div className="absolute bottom-0 left-0 px-8 py-8">
-            <h1 className="px-3 py-1 uppercase border border-[#461309] text-[#461309] rounded-full text-sm tracking-widest font-['Neue_Montreal']">
+            <h1 className="px-3 py-1 uppercase border border-[#461309] text-[#461309] rounded-full text-sm tracking-widest font-Neue_Montreal">
               yana
             </h1>
           </div>

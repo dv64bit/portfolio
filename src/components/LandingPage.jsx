@@ -39,10 +39,7 @@ const LandingPage = () => {
       <div className="border-t-[1px]  py-5 px-14 w-full border-zinc-700 mt-20 flex justify-between items-center">
         {["For public and private companies", "Open for Freelancing"].map(
           (item, index) => (
-            <p
-              key={index}
-              className="text-base text-white font-['Neue_Montreal']"
-            >
+            <p key={index} className="text-base text-white font-Neue_Montreal">
               {item}
             </p>
           )
