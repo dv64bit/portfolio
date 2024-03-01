@@ -10,9 +10,9 @@ const Clients = () => {
       </div>
       <div className="flex max-md:flex-col mt-9">
         <div className="basis-1/3">
-          <h3 className="pl-14 font-NeueMontreal  text-lg">
+          <h1 className="pl-14 font-NeueMontreal  text-lg">
             AntStudio | CoolAnt
-          </h3>
+          </h1>
         </div>
         <div className="pl-14 basis-1/3">
           <div className="flex flex-col gap-16">

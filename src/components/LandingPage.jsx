@@ -52,7 +52,8 @@ const LandingPage = () => {
             Start the project
           </a>
           <a
-            href="#Contact"
+            href="#Contact me"
+            aria-label="Connect with me!"
             className="w-8 h-8 rounded-full font-semibold border-[1.5px] border-zinc-400 flex items-center justify-center"
           >
             <GoArrowUpRight size={["1em"]} />
