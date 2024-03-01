@@ -25,7 +25,7 @@ const Navbar = () => {
       }`}
     >
       <a href="/" className="logo">
-        <img src="/logo.svg" className="w-16 h-16" alt="" />
+        <img src="/logo.svg" className="w-16 h-16" alt="Website Logo" />
       </a>
 
       <div className="links flex gap-8">
