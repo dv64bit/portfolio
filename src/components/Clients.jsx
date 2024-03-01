@@ -16,7 +16,7 @@ const Clients = () => {
         </div>
         <div className="pl-14 basis-1/3">
           <div className="flex flex-col gap-16">
-            <h3 className=" font-NeueMontreal  text-lg">Services:</h3>
+            <h1 className=" font-NeueMontreal  text-lg">Services:</h1>
             <div className=" font-NeueMontreal  text-lg">
               <div className="w-fit my-3 px-3 py-1 uppercase border rounded-full text-sm tracking-widest">
                 Frontend Design
