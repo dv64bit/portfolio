@@ -46,7 +46,7 @@ const LandingPage = () => {
         )}
         <div className="flex items-center gap-1">
           <a
-            href="#Contact"
+            href="#Contact me"
             className="uppercase border-[1px] text-base border-zinc-400 px-4 py-1 tracking-wide rounded-full"
           >
             Start the project
