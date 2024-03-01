@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div id="Projects" className="w-full py-20">
       <div className="w-full px-14 border-b-[1px] border-zinc-700 pb-16">
-        <h1 className="text-6xl font-Neue_Montreal tracking-tight">
+        <h1 className="text-6xl font-NeueMontreal tracking-tight">
           Featured projects
         </h1>
       </div>

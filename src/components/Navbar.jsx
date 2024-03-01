@@ -34,9 +34,7 @@ const Navbar = () => {
             <a
               href={`#${listItems}`}
               key={index}
-              className={`text-lg font-Neue_Montreal ${
-                index === 4 && "ml-60"
-              } ${
+              className={`text-lg font-NeueMontreal ${index === 4 && "ml-60"} ${
                 visible
                   ? "text-stone-200 hover:text-stone-300"
                   : "text-white hover:text-gray-100"

@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: "Neue_Montreal";
+  font-family: "NeueMontreal";
   src: local("NeueMontreal-Regular"),
-    url("./asserts/fonts/NeueMontreal-Regular.ttf") format(truetype);
+    url("./assets/fonts/NeueMontreal/NeueMontreal-Regular.ttf") format(truetype);
   font-weight: normal;
   font-style: normal;
 }
