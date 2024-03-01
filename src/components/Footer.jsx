@@ -32,21 +32,34 @@ const Footer = () => {
             <div>Socials:</div>
             <div>
               <ul className="flex flex-col ">
-                <a
-                  className="underline"
-                  href="https://www.linkedin.com/in/dv64bit/"
-                >
-                  LinkedIn
-                </a>
-                <a className="underline" href="https://github.com/dv64bit">
-                  Github
-                </a>
-                <a
-                  className="underline"
-                  href="https://www.instagram.com/dv64bit/"
-                >
-                  Instagram
-                </a>
+                <li>
+                  <a
+                    className="underline"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/dv64bit/"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="underline"
+                    target="_blank"
+                    href="https://github.com/dv64bit"
+                  >
+                    Github
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    className="underline"
+                    target="_blank"
+                    href="https://www.instagram.com/dv64bit/"
+                  >
+                    Instagram
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
