@@ -67,7 +67,7 @@ const About = () => {
             className="w-[50%] flex flex-col gap-4 font-NeueMontreal items-start justify-start"
           >
             <h1 className="text-[4vw]">About Me:</h1>
-            <a href="https://drive.google.com/file/d/1854NWg9uAUr_brKJlDDBvfFvRsKn71U7/view?usp=sharing" className=" flex gap-8 items-center justify-between uppercase bg-gray-900 text-white text-base py-5 px-6 rounded-full">
+            <a href="https://drive.google.com/file/d/1854NWg9uAUr_brKJlDDBvfFvRsKn71U7/view?usp=sharing" target="_blank" className=" flex gap-8 items-center justify-between uppercase bg-gray-900 text-white text-base py-5 px-6 rounded-full">
               Read More
               <div className="w-2 h-2 rounded-full bg-white  hover:scale-[5] duration-200 transform-gpu"></div>
             </a>
