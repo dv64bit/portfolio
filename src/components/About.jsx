@@ -68,11 +68,11 @@ const About = () => {
             id="About me"
             className="md:w-[50%] flex flex-col gap-4 font-NeueMontreal items-start justify-start"
           >
-            <h1 className="text-2xl md:text-[4vw]">About Me:</h1>
-            <button className=" flex gap-4 md:gap-8 items-center justify-between uppercase bg-gray-900 text-white text-sm md:text-base py-2 px-3 md:py-5 md:px-6 rounded-full">
+            <h1 className="text-[4vw]">About Me:</h1>
+            <button className=" flex gap-8 items-center justify-between uppercase bg-gray-900 text-white text-base py-5 px-6 rounded-full">
               Read More
               <div className="w-2 h-2 rounded-full bg-white  hover:scale-[5] duration-200 transform-gpu"></div>
-            </button>
+            </a>
           </div>
           <div className="w-full md:w-[50%] h-[70vh] rounded-lg bg-red-700 overflow-hidden">
             <img
