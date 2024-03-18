@@ -36,28 +36,33 @@ const LandingPage = () => {
           );
         })}
       </div>
-      <div className="border-t-[1px]  py-5 px-14 w-full border-zinc-700 mt-20 flex justify-between items-center">
+      <div className="border-t-[1px] px-5 py-7 sm:py-5 sm:px-14 w-full border-zinc-700 mt-20 flex flex-col gap-2 sm:flex-row justify-between items-start sm:items-center">
         {["For public and private companies", "Open for Freelancing"].map(
           (item, index) => (
-            <p key={index} className="text-base text-white font-NeueMontreal">
+            <p
+              key={index}
+              className="text-sm sm:text-base text-white font-NeueMontreal"
+            >
               {item}
             </p>
           )
         )}
-        <div className="flex items-center gap-1">
-          <a
-            href="#Contact me"
-            className="uppercase border-[1px] text-base border-zinc-400 px-4 py-1 tracking-wide rounded-full"
-          >
-            Start the project
-          </a>
-          <a
-            href="#Contact me"
-            aria-label="Connect with me!"
-            className="w-8 h-8 rounded-full font-semibold border-[1.5px] border-zinc-400 flex items-center justify-center"
-          >
-            <GoArrowUpRight size={["1em"]} />
-          </a>
+        <div className="flex">
+          <div className="flex justify-between items-center gap-1">
+            <a
+              href="#Contact me"
+              className="uppercase border-[1px] text-sm border-zinc-400 px-4 py-1 tracking-wide rounded-full"
+            >
+              Start the project
+            </a>
+            <a
+              href="#Contact me"
+              aria-label="Connect with me!"
+              className="w-8 h-8 rounded-full font-semibold border-[1.5px] border-zinc-400 flex items-center justify-center"
+            >
+              <GoArrowUpRight size={["1em"]} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ const ProjectCard = () => {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="w-1/2 p-2 relative flex flex-col items-start"
+          className="hidden w-1/2 p-2 relative md:flex flex-col items-start"
         >
           <h1 className="flex gap-3 uppercase items-center py-5 text-base font-NeueMontreal">
             <div className="w-3 h-3 rounded-full bg-white"></div>
@@ -28,7 +28,7 @@ const ProjectCard = () => {
           <motion.div
             initial={{ y: "100%" }}
             animate={animationControls[index]}
-            className="absolute uppercase translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none text-8xl tracking-tighter font-Founders_Grotesk_X_light"
+            className=" absolute uppercase translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none text-8xl tracking-tighter font-Founders_Grotesk_X_light"
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={() => handleHoverEnd(index)}
           >

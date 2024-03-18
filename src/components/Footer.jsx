@@ -23,11 +23,11 @@ const Footer = () => {
           <img src="/logo.svg" className="w-16 h-16" alt="" />
         </div>
       </div>
-      <div className="w-1/2 h-full">
+      <div className="w-1/2 h-full mr-7 md:mr-0">
         <div className="text-[9vw] text-stone-800 font-Founders_Grotesk_X uppercase -mt-6">
           Websites
         </div>
-        <div className="text-stone-950 text-2xl flex flex-col gap-12 justify-end text-left font-NeueMontreal ">
+        <div className="text-stone-950 text-base md:text-2xl flex flex-col gap-12 justify-end text-left font-NeueMontreal ">
           <div className="flex flex-col gap-5">
             <div>Socials:</div>
             <div>
@@ -63,11 +63,11 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-1 md:gap-5">
             <div>Email:</div>
             <a
               href="mailto:darshanverma2002@gmail.com?subject=Let's Connect$body= I saw your website"
-              className="underline"
+              className="underline text-sm md:text-2xl"
               target="_blank"
             >
               darshanverma2002@gmail.com

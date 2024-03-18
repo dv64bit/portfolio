@@ -6,9 +6,9 @@ const CompanyCard = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="-0.1"
-      className="w-full h-fit py-11 px-14 flex flex-row gap-3"
+      className="w-full h-fit py-11 px-14 flex flex-col md:flex-row gap-3"
     >
-      <div className="w-1/2 h-[60vh] bg-[#163e45] relative rounded-lg overflow-hidde flex items-center justify-center">
+      <div className="w-full md:w-1/2 h-[60vh] bg-[#163e45] relative rounded-lg overflow-hidde flex items-center justify-center">
         <img
           className="w-2/3 h-2/3 object-contain"
           src="https://i.postimg.cc/3wRCz8s7/2-cropped.png"
@@ -20,8 +20,8 @@ const CompanyCard = () => {
           </h1>
         </div>
       </div>
-      <div className="w-1/2  h-[60vh] flex gap-3">
-        <div className="w-1/2 h-full bg-[#FBF6EE] relative rounded-lg overflow-hidde flex items-center justify-center">
+      <div className="w-full md:w-1/2 h-[90vh] md:h-[60vh] flex flex-col md:flex-row gap-3">
+        <div className="md:w-1/2 h-full bg-[#FBF6EE] relative rounded-lg overflow-hidde flex items-center justify-center">
           <img
             className="w-2/3 h-2/3 object-contain"
             src="https://i.postimg.cc/rpc0Hxp7/without-bg.png"
@@ -33,7 +33,7 @@ const CompanyCard = () => {
             </h1>
           </div>
         </div>
-        <div className="w-1/2 h-full bg-[#F3EDC8] relative rounded-lg overflow-hidde flex items-center justify-center">
+        <div className="w-full md:w-1/2 h-full bg-[#F3EDC8] relative rounded-lg overflow-hidde flex items-center justify-center">
           <img
             className="w-2/3 h-2/3 object-contain"
             src="https://i.postimg.cc/NF3XdnSw/Vector.png"
