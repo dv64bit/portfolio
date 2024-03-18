@@ -72,7 +72,7 @@ const About = () => {
             <button className=" flex gap-8 items-center justify-between uppercase bg-gray-900 text-white text-base py-5 px-6 rounded-full">
               Read More
               <div className="w-2 h-2 rounded-full bg-white  hover:scale-[5] duration-200 transform-gpu"></div>
-            </a>
+            </button>
           </div>
           <div className="w-full md:w-[50%] h-[70vh] rounded-lg bg-red-700 overflow-hidden">
             <img
