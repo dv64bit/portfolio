@@ -8,21 +8,16 @@ const About = () => {
         className="w-full h-fit py-28 bg-[#cdea68] rounded-t-3xl text-black"
       >
         <h1 className="px-14 w-[95%] tracking-tight text-[4vw] font-NeueMontreal leading-[4.5vw] pb-16">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et saepe, vel
-          culpa natus suscipit esse, itaque totam officiis, perferendis eum
+          Experience captivating design and seamless functionality. Explore my portfolio for innovative web solutions that elevate user experiences.
         </h1>
         <div className="border-t-[1px] border-b-[1px] font-NeueMontreal font-medium md:text-lg border-black border-opacity-50 flex flex-col justify-center md:flex-row md:gap-7 px-7 md:px-14 md:pt-4 md:pb-32">
           <div className="text-2xl md:w-[45%] mt-6">What you can expect:</div>
           <div className="md:w-[30%] md:px-2 mt-5 flex flex-col gap-6">
             <div className="md:w-[90%]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Similique, recusandae? Voluptates tenetur fugiat voluptatum amet
-              ipsa optio, dolores expedita dolore nesciunt, consectetur tempora,
-              beatae iusto.
+              Expect meticulously crafted designs, intuitive interfaces, and seamless user experiences. Explore a showcase of projects showcasing innovation, creativity, and attention to detail in every aspect of web development.
             </div>
             <div className="md:w-[90%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-              animi.
+              From responsive layouts to immersive interactions, expect nothing short of excellence in every aspect of web design and development.
             </div>
           </div>
           <div className="w-full md:w-[25%] my-6 md:my-0 flex flex-col gap-4 justify-start md:justify-end md:px-[8vw] text-left">
