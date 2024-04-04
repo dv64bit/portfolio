@@ -40,13 +40,7 @@ const Clients = () => {
                 />
               </div>
               <div className="w-[80%] font-NeueMontreal text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                maiores pariatur doloribus corporis suscipit architecto
-                reiciendis, molestias perspiciatis sapiente in, dolorem
-                inventore minus ea nam exercitationem enim sint! Eius adipisci
-                perspiciatis maiores dolorum corrupti odio earum repellat,
-                inventore assumenda. Harum quas cumque dicta fuga blanditiis
-                impedit velit adipisci, tenetur nostrum!
+                Collaborating with Darshan Verma was a truly rewarding experience. Their meticulous attention to detail and innovative approach to design not only met but exceeded our project goals. Their creativity and expertise brought our vision to life in ways we hadn't imagined. We're incredibly pleased with the final result and would highly recommend [Your Name] to anyone seeking exceptional design solutions.
               </div>
             </div>
           </div>
@@ -59,35 +53,11 @@ const Clients = () => {
       {/* Extra Clients */}
       <div className="flex border-t-[1px] py-4 border-zinc-700">
         <div className="basis-1/3 pl-12 font-NeueMontreal text-lg">
-          Lorem, ipsum.
+          Webflow
         </div>
         <div className="basis-1/3 pl-12 font-NeueMontreal text-lg"></div>
         <div className="basis-1/2 pl-12 font-NeueMontreal text-lg">
-          Keith Holland
-        </div>
-        <div className="basis-1/6 pl-12 font-NeueMontreal text-lg uppercase">
-          Read
-        </div>
-      </div>
-      <div className="flex border-t-[1px] py-4 border-zinc-700">
-        <div className="basis-1/3 pl-12 font-NeueMontreal text-lg">
-          Lorem, ipsum.
-        </div>
-        <div className="basis-1/3 pl-12 font-NeueMontreal text-lg"></div>
-        <div className="basis-1/2 pl-12 font-NeueMontreal text-lg">
-          Caleb Jordan
-        </div>
-        <div className="basis-1/6 pl-12 font-NeueMontreal text-lg uppercase">
-          Read
-        </div>
-      </div>
-      <div className="flex border-y-[1px] py-4 border-zinc-700">
-        <div className="basis-1/3 pl-12 font-NeueMontreal text-lg">
-          Lorem, ipsum.
-        </div>
-        <div className="basis-1/3 pl-12 font-NeueMontreal text-lg"></div>
-        <div className="basis-1/2 pl-12 font-NeueMontreal text-lg">
-          Brent Barton
+          Sanket Sharma
         </div>
         <div className="basis-1/6 pl-12 font-NeueMontreal text-lg uppercase">
           Read
